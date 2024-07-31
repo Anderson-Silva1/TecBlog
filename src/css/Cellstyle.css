@@ -1,0 +1,110 @@
+body {
+    font-size: 1em;
+    background-color: #b6b6b6;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Layout Page */
+
+/* Cabeçalho da página */
+
+header {
+    background-color: #f7b600;
+    text-align: center;
+}
+
+header #titulo-logo-header,
+header #menu-header {
+    padding: 20px;
+}
+
+header #titulo-logo-header h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+header #titulo-logo-header h1 span {
+    color: #ffffff;
+}
+
+header #menu-header a:link,
+header #menu-header a:visited {
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+header #menu-header a:hover {
+    color: #f7b600;
+    background-color: #ffffff;
+}
+
+/* Fim do cabeçalho da página */
+
+/* Corpo das noticias */
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagem, #menu-lateral {
+    background-color: orange;
+}
+
+main #area-postagem {
+    width: 660px;
+    float: left;
+    background-color: #ffffff;
+}
+
+main #area-postagem .postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+main #area-postagem .postagem h2 {
+    color: #f7b600;
+}
+
+main #area-postagem .postagem .data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f7b600;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+main #menu-lateral {
+    width: 240px;
+    float: right;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main #menu-lateral h3 {
+    color: #4e4e4e;
+    background-color: #f7b600;
+    padding: 5px;
+}
+
+main #menu-lateral .texto-lateral {
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+main #menu-lateral a {
+    font-size: 1.1em;
+    color: #f7b600;
+}
+
+
+
+main #rodape {
+    padding: 20px;
+    background-color: #4e4e4e;
+    clear: both;
+    text-align: center;
+    color: #cccccc;
+}
